@@ -1,0 +1,65 @@
+/* Card Component */
+.card {
+ background-color: #ffffff;
+ padding: 30px;
+ border-radius: 12px;
+ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+ text-align: center;
+ max-width: 300px;
+ transition: background-color 0.3s;
+}
+
+
+.card img {
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ object-fit: cover;
+ margin-bottom: 15px;
+ 
+}
+
+
+.title {
+ color: #007bff;
+ font-weight: 600;
+ font-size: 0.95rem;
+}
+
+
+.bio {
+ font-size: 0.9rem;
+ line-height: 1.4;
+ margin: 15px 0;
+}
+
+
+/* Interactive Button */
+button {
+ background-color: #007bff;
+ color: #ffffff;
+ border: none;
+ padding: 10px 20px;
+ border-radius: 6px;
+ cursor: pointer;
+ font-weight: bold;
+ transition: background-color 0.2s;
+}
+
+
+button:hover {
+ background-color: #0056b3;
+}
+
+
+/* Dark Mode State Class */
+body.dark-mode {
+ background-color: #1e1e2e;
+ color: #ffffff;
+}
+
+
+body.dark-mode .card {
+ background-color: #2b2b3d;
+ color: #ffffff;
+}
